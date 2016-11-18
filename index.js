@@ -1,1 +1,1 @@
-require('./lib/reload-latest-hash.js')
+module.exports = require('./lib/reload-latest-hash.js')
