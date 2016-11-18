@@ -6,7 +6,7 @@ npm install reload-latest-webpack-plugin
 ```
 ## Usage
 ```
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+var ReloadLatestHash = require('reload-latest-webpack-plugin');
 var webpackConfig = {
   plugins: [new ReloadLatestHash()]
 };
