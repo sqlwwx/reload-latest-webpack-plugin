@@ -22,7 +22,7 @@ var webpackConfig = {
     <script>
       window.hash = '<%= webpack.hash %>'
       var script = document.createElement('SCRIPT')
-      script.setAttribute('src', 'reload-latest-hash.js?version=' + (Date.now() + '').substr(0, 7))
+      script.setAttribute('src', '/reload-latest-hash.js?version=' + (Date.now() + '').substr(0, 7))
       document.head.insertBefore(script,document.head.firstChild);
     </script>
     <div id="app"></div>

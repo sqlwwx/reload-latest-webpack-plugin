@@ -1,6 +1,6 @@
 {
   "name": "reload-latest-webpack-plugin",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "reload latest html",
   "main": "index.js",
   "repository": {
